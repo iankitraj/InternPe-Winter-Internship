@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WEEK 7 & 8 | RockPaperScissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game">
+        <!-- Computer Score -->
+        <div class="score top">
+            Computer Score: <span id="computerScore">0</span>
+        </div>
+
+        <!-- Status -->
+        <p id="status">Your Turn</p>
+
+        <!-- Game Arena -->
+        <div class="arena">
+            <div class="circle big" id="computerChoice">❔</div>
+            <div class="circle big" id="userChoice">❔</div>
+        </div>
+
+        <!-- User Choices -->
+        <div class="choices">
+            <div class="circle small" onclick="play('rock')">✊</div>
+            <div class="circle small" onclick="play('paper')">✋</div>
+            <div class="circle small" onclick="play('scissors')">✌️</div>
+        </div>
+
+        <!-- User Score -->
+        <div class="score bottom">
+            Your Score: <span id="userScore">0</span>
+        </div>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

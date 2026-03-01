@@ -53,11 +53,15 @@ Each folder represents weekly tasks assigned as part of the internship program, 
     │ ├── style.css
     │ ├── script.js
     │ └── README.md
+    |
+    ├── Week7_8_Rock-Paper-Scissors/
+    │ ├── index.html
+    │ ├── style.css
+    │ ├── script.js
+    │ └── README.md
     │
     └── README.md
 
-
----
 
 ---
 
@@ -104,6 +108,15 @@ Each folder represents weekly tasks assigned as part of the internship program, 
 - Wrong answer highlighted in red with correct option shown  
 - Final score displayed like **7/10 or 10/10**  
 - Clean and professional UI  
+
+### ✅ Task 7 & 8 – Rock Paper Scissors Web Game
+- User vs Computer gameplay  
+- Interactive Rock ✊ Paper ✋ Scissors ✌️ selection  
+- Turn-based system with real-time feedback  
+- Dynamic score tracking for user and computer  
+- Result display (Win / Lose / Draw)  
+- Clean circular UI inspired by classic hand-gesture games  
+- Smooth and responsive layout  
 
 ---
 
