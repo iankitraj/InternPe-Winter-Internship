@@ -59,6 +59,12 @@ Each folder represents weekly tasks assigned as part of the internship program, 
     │ ├── style.css
     │ ├── script.js
     │ └── README.md
+    |
+    ├── Week9_10_Snake-Game/
+    │   ├── index.html
+    │   ├── style.css
+    │   ├── script.js
+    │   └── README.md
     │
     └── README.md
 
@@ -68,18 +74,22 @@ Each folder represents weekly tasks assigned as part of the internship program, 
 
 ---
 
-## 📌 Completed Tasks
+# 📌 Completed Tasks
 
 ### ✅ Task 1 – Basic Web Page
 - HTML & CSS fundamentals  
 - Responsive layout  
 - Clean UI structure  
 
+---
+
 ### ✅ Task 2 – E-Commerce Website
 - Product listing & cart functionality  
 - Login / Sign Up UI  
 - Dark & Light mode  
 - Animations & responsive design  
+
+---
 
 ### ✅ Task 3 – To-Do List Web App
 - Add, Edit & Delete tasks  
@@ -90,6 +100,8 @@ Each folder represents weekly tasks assigned as part of the internship program, 
 - Local Storage (data persistence)  
 - Smooth animations & modern UI  
 
+---
+
 ### ✅ Task 4 – Connect Four Web Game
 - Two-player gameplay (Red 🔴 vs Yellow 🟡)  
 - Disc drop animation  
@@ -98,6 +110,8 @@ Each folder represents weekly tasks assigned as part of the internship program, 
 - Score counter  
 - Winning highlight animation  
 - Modern dark-themed UI  
+
+---
 
 ### ✅ Task 5 & 6 – Quiz Game Web Application
 - Real-type quiz system (exam-like behavior)  
@@ -108,6 +122,8 @@ Each folder represents weekly tasks assigned as part of the internship program, 
 - Wrong answer highlighted in red with correct option shown  
 - Final score displayed like **7/10 or 10/10**  
 - Clean and professional UI  
+
+---
 
 ### ✅ Task 7 & 8 – Rock Paper Scissors Web Game
 - User vs Computer gameplay  
@@ -120,27 +136,45 @@ Each folder represents weekly tasks assigned as part of the internship program, 
 
 ---
 
-## 🎯 Objective
-To gain hands-on experience in frontend development by building real-world projects using **HTML, CSS, and JavaScript**, while improving **problem-solving, logic building, and UI/UX skills**.
+### ✅ Task 9 & 10 – Snake Game Web Application
+- Classic **Snake Game built using HTML5 Canvas**
+- Smooth snake movement with keyboard controls  
+- Animated food with pulse effect  
+- Snake head with eyes and rounded body design  
+- Dynamic speed increase every **5 points**  
+- Level system with increasing difficulty  
+- High score tracking using **LocalStorage**  
+- Game Over screen with restart functionality  
+- Background grid for better gameplay visuals  
 
 ---
 
-## 🛠️ Technologies Used
+# 🎯 Objective
+To gain hands-on experience in frontend development by building real-world projects using **HTML, CSS, and JavaScript**, while improving **problem-solving, logic building, and UI/UX design skills**.
+
+---
+
+# 🛠️ Technologies Used
 - HTML  
 - CSS  
 - JavaScript  
+- HTML5 Canvas  
 
 ---
 
-## 🧑‍💻 Internship Details
+# 🧑‍💻 Internship Details
 - **Platform:** InternPe  
 - **Domain:** Web Development  
 - **Role:** Intern  
-- **Duration:** Ongoing  
+- **Duration:** Summer Internship Program  
 
 ---
 
-## 📌 Author
+# 📌 Author
 **Ankit Raj**  
 B.Tech – Computer Engineering  
-Aspiring Web / Software Developer  
+Aspiring **Web / Software Developer**
+
+---
+
+⭐ This repository contains all the projects developed during the **InternPe Web Development Internship**, showcasing practical implementations of frontend development concepts.
