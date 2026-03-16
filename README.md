@@ -11,7 +11,7 @@ Each folder represents weekly tasks assigned as part of the internship program, 
 
 **root/**
 
-    InternPe-Summer-Internship/
+    InternPe-Winter-Internship/
     ├── Week1/
     │ ├── index.html
     │ ├── style.css
@@ -65,11 +65,14 @@ Each folder represents weekly tasks assigned as part of the internship program, 
     │   ├── style.css
     │   ├── script.js
     │   └── README.md
+    |
+    ├── Week11_12_Cafino/
+    │ ├── index.html
+    │ ├── style.css
+    │ ├── script.js
+    │ └── README.md
     │
     └── README.md
-
-
----
 
 
 ---
@@ -146,6 +149,19 @@ Each folder represents weekly tasks assigned as part of the internship program, 
 - High score tracking using **LocalStorage**  
 - Game Over screen with restart functionality  
 - Background grid for better gameplay visuals  
+
+---
+
+### ✅ Task 11 & 12 – CoffeeBliss Coffee Shop Website
+- Modern **coffee shop landing page**
+- Animated **hero background slider**
+- Interactive **coffee menu cards**
+- **Login / SignUp modal popup UI**
+- **Order system with customer details**
+- Coffee **image gallery with hover effects**
+- **Contact form with validation**
+- Responsive design using **Flexbox and Grid**
+- Clean UI with smooth animations and transitions  
 
 ---
 
