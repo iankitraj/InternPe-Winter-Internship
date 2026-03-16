@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cafino | WEEK 11&12</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h2 class="logo">Cafino ☕</h2>
+
+        <nav>
+
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- HERO -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <h1>Fresh Coffee Everyday</h1>
+
+            <p>
+                Start your morning with the perfect cup of coffee.
+                At CoffeeBliss we serve freshly brewed coffee
+                that energizes your day and fuels your creativity.
+            </p>
+
+            <p>
+                From classic espresso to rich cappuccino,
+                every sip is crafted with passion.
+            </p>
+
+            <button id="startBtn">Get Start</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- MENU -->
+
+    <section id="menu">
+
+        <h2 class="section-title">Coffee Menu</h2>
+
+        <div class="menu-container">
+
+            <div class="card">
+
+                <img src="https://cdn.pixabay.com/photo/2017/09/04/18/39/coffee-2714970_1280.jpg">
+
+                <h3>Cappuccino (Italy)</h3>
+
+                <p>₹180</p>
+
+                <button class="addBtn">Add</button>
+
+            </div>
+
+            <div class="card">
+
+                <img src="https://cdn.pixabay.com/photo/2015/05/07/13/46/cappuccino-756490_1280.jpg">
+
+                <h3>Filter Coffee (India)</h3>
+
+                <p>₹120</p>
+
+                <button class="addBtn">Add</button>
+
+            </div>
+
+            <div class="card">
+
+                <img src="https://cdn.pixabay.com/photo/2019/12/02/11/23/drink-4667507_1280.jpg">
+
+                <h3>Espresso</h3>
+
+                <p>₹150</p>
+
+                <button class="addBtn">Add</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- GALLERY -->
+
+    <section id="gallery">
+
+        <h2 class="section-title">Coffee Gallery</h2>
+
+        <div class="gallery">
+
+            <img src="https://cdn.pixabay.com/photo/2021/11/10/16/53/coffee-6784376_1280.jpg">
+            <img src="https://cdn.pixabay.com/photo/2020/02/23/17/07/coffee-4874028_1280.jpg">
+            <img src="https://cdn.pixabay.com/photo/2020/08/17/14/37/coffee-5495609_1280.jpg">
+            <img src="https://cdn.pixabay.com/photo/2014/12/11/02/57/coffee-563800_1280.jpg">
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section id="about">
+
+        <h2 class="section-title">About CoffeeBliss</h2>
+
+        <div class="about-container">
+
+            <img src="https://cdn.pixabay.com/photo/2015/05/07/13/46/cappuccino-756490_1280.jpg">
+
+            <p>
+
+                CoffeeBliss is more than just a coffee shop.
+                It's a place where conversations start,
+                ideas grow, and every cup tells a story.
+
+                We carefully select premium coffee beans
+                from different regions to create a rich
+                and unforgettable taste experience.
+
+                Whether you're a developer fixing bugs,
+                a student studying late nights,
+                or friends catching up over coffee —
+                CoffeeBliss is the perfect place.
+
+                Because great coffee doesn't just wake you up,
+                it inspires you ☕
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+
+        <h2 class="section-title">Contact Us</h2>
+
+        <div class="contact-container">
+
+            <img src="https://cdn.pixabay.com/photo/2020/04/13/10/48/coffee-5037800_1280.jpg">
+
+            <form id="contactForm">
+
+                <input type="text" placeholder="Your Name" required>
+
+                <input type="email" placeholder="Email" required>
+
+                <textarea placeholder="Message"></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>© <span id="year"></span> Cafino</p>
+
+    </footer>
+
+
+    <!-- LOGIN MODAL -->
+
+    <div class="modal" id="loginModal">
+
+        <div class="modal-content">
+
+            <h2>Account</h2>
+
+            <button class="googleBtn">Continue with Google</button>
+
+            <input type="email" placeholder="Email">
+
+            <input type="password" placeholder="Password">
+
+            <button>Sign In</button>
+
+            <p>Don't have account?</p>
+
+            <button class="signupBtn">Sign Up</button>
+
+            <span class="close">X</span>
+
+        </div>
+
+    </div>
+
+
+    <!-- ORDER MODAL -->
+
+    <div class="modal" id="orderModal">
+
+        <div class="modal-content">
+
+            <h2>Order Details</h2>
+
+            <input type="text" id="customerName" placeholder="Your Name">
+
+            <input type="text" id="address" placeholder="Address">
+
+            <button id="confirmOrder">Add To Cart</button>
+
+            <p id="successMsg"></p>
+
+            <span class="closeOrder">X</span>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
